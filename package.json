@@ -1,0 +1,22 @@
+{
+  "name": "duck311.github.io",
+  "version": "1.0.0",
+  "description": "jensen_test_page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duck311/duck311.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duck311/duck311.github.io/issues"
+  },
+  "homepage": "https://github.com/duck311/duck311.github.io#readme",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
