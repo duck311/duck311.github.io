@@ -16,9 +16,9 @@
   </script>
   </head>
   <body>
-    <p>
+    <h1>
         Jensen messing around
-    </p>
+    </h1>
       <div id="banner-ad" style="width: 300px; height: 250px;">
     <script>
       googletag.cmd.push(function() {
@@ -44,8 +44,31 @@
                 }
             };
         </script>
-<script type="text/javascript" src="//js.spotx.tv/easi/v1/85394.js" data-spotx_channel_id="85394" data-spotx_content_width="400" data-spotx_content_height="300" data-spotx_ad_done_function="myAdDoneFunction" data-spotx_content_container_id="spotxvideo" data-spotx_banner_container_id="spotxbanner" data-spotx_ad_unit="instream" data-spotx_vid_id="" data-spotx_vid_description="" data-spotx_vid_url="" data-spotx_vid_title="" data-spotx_vid_duration="">        </script>
-
+<script type="text/javascript" src="//js.spotx.tv/easi/v1/85394.js" data-spotx_channel_id="85394" data-spotx_content_width="400" data-spotx_content_height="300" data-spotx_ad_done_function="myAdDoneFunction" data-spotx_content_container_id="spotxvideo" data-spotx_banner_container_id="spotxbanner" data-spotx_ad_unit="instream" data-spotx_vid_id="" data-spotx_vid_description="" data-spotx_vid_url="" data-spotx_vid_title="" data-spotx_vid_duration=""> 
+    </script>
+    <p>
+        Index banner shenanigans 
+    </p>      
+    <script src = "https://cdn.jsdelivr.net/npm/prebid-universal-creative@latest/dist/creative.js"></script>
+    <script>
+    var ucTagData = {};
+    ucTagData.adServerDomain = "";
+    ucTagData.pubUrl = "%%PATTERN:url%%";
+    ucTagData.adId = "%%PATTERN:hb_adid_ix%%";
+    ucTagData.cacheHost = "%%PATTERN:hb_cache_host_ix%%";
+    ucTagData.cachePath = "%%PATTERN:hb_cache_path_ix%%";
+    ucTagData.uuid = "%%PATTERN:hb_cache_id_ix%%";
+    ucTagData.mediaType = "%%PATTERN:hb_format_ix%%";
+    ucTagData.env = "%%PATTERN:hb_env%%";
+    ucTagData.size = "%%PATTERN:hb_size_ix%%";
+    ucTagData.hbPb = "%%PATTERN:hb_pb_ix%%";
+    
+    try {
+        ucTag.renderAd(document, ucTagData);
+    } catch (e) {
+        console.log(e);
+    }
+    </script>
 
   </body>
 </html>
